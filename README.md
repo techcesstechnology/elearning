@@ -8,10 +8,109 @@ Welcome to the **E-Learning Management System (LMS)**! This project consists of 
   </a>
 </p>
 
+**Visit the live demo app here: [E-Learning Management System](https://learning-manangement-system.vercel.app)**
+
+<p align="center">
+  <!-- Frontend -->
+  <a href="https://angular.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Frontend-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
+  </a>
+  <a href="https://nodejs.org" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-18.19-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  </a>
+
+  <!-- Backend -->
+  <a href="https://www.djangoproject.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Backend-Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+  </a>
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </a>
+
+  <!-- Database & Cache -->
+  <a href="https://www.mongodb.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  </a>
+  <a href="https://redis.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Cache-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  </a>
+  <a href="https://www.sqlite.org/" target="_blank">
+    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
+  </a>
+  <a href="https://www.swagger.io/" target="_blank">
+    <img src="https://img.shields.io/badge/API%20Docs-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
+  </a>
+
+  <!-- DevOps / CI/CD -->
+  <a href="https://github.com/features/actions" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Actions-Automation-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  </a>
+  <a href="https://www.jenkins.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Jenkins-CI/CD-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
+  </a>
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  </a>
+  <a href="https://kubernetes.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  </a>
+  <a href="https://nginx.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Proxy_&_Load_Balancer-NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX"/>
+  </a>
+
+  <!-- Hosting -->
+  <a href="https://vercel.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Hosting-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  </a>
+  <a href="https://www.mongodb.com/cloud/atlas" target="_blank">
+    <img src="https://img.shields.io/badge/Database%20Host-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Atlas"/>
+  </a>
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Cloud-AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
+  </a>
+  <a href="https://terraform.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Infrastructure-Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+  </a>
+  <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry" target="_blank">
+    <img src="https://img.shields.io/badge/Container_Registry-GHCR-CF142B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://render.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Backup-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render"/>
+  </a>
+
+  <!-- Testing -->
+  <a href="https://www.cypress.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Testing-Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress"/>
+  </a>
+  <a href="https://jestjs.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Jest-Testing-FF6F61?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"/>
+  </a>
+  <a href="https://pytesting.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Testing-Pytest-FFCA28?style=for-the-badge&logo=pytest&logoColor=black" alt="Pytest"/>
+  </a>
+
+  <!-- Version Control -->
+  <a href="https://docs.github.com/en/actions" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Version%20Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  </a>
+</p>
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
   - [The MAD-Stack](#the-mad-stack)
+- [System Architecture](#system-architecture)
+  - [High-Level Architecture](#high-level-architecture)
+  - [Technology Stack](#technology-stack)
+  - [Database Schema](#database-schema)
+  - [Authentication Flow](#authentication-flow)
+  - [Component Architecture](#component-architecture)
+  - [Deployment Architecture](#deployment-architecture)
+  - [API Request Flow with Caching](#api-request-flow-with-caching)
+  - [CI/CD Pipeline](#cicd-pipeline)
 - [Features](#features)
 - [Live Deployment](#live-deployment)
 - [Detailed Project Information](#detailed-project-information)
@@ -29,8 +128,12 @@ Welcome to the **E-Learning Management System (LMS)**! This project consists of 
   - [Seeding Sample Data](#seeding-sample-data)
   - [Recommended GUI Tools](#recommended-gui-tools)
   - [MongoDB Atlas](#mongodb-atlas)
+- [Deployment](#deployment)
 - [Containerization](#containerization)
 - [Kubernetes](#kubernetes)
+- [Testing](#testing)
+  - [Backend Tests](#backend-tests)
+  - [Frontend Tests](#frontend-tests)
 - [OpenAPI Specification](#openapi-specification)
 - [Jenkins CI/CD](#jenkins-cicd)
 - [Troubleshooting](#troubleshooting)
@@ -64,7 +167,400 @@ The **MAD-Stack** is a powerful combination that allows developers to build scal
 
 > Sounds mad, but it's actually a great stack for building modern web applications!
 
+## System Architecture
+
+For a comprehensive and detailed architecture documentation, please refer to [ARCHITECTURE.md](ARCHITECTURE.md).
+
+### High-Level Architecture
+
+The system follows a modern three-tier architecture with clear separation of concerns:
+
+```mermaid
+graph TB
+    subgraph "Client Layer"
+        A[Web Browser]
+        B[Mobile Browser]
+    end
+
+    subgraph "Frontend - Angular SPA"
+        C[Angular Components]
+        D[Angular Services]
+        E[HTTP Interceptors]
+        F[State Management]
+    end
+
+    subgraph "API Gateway"
+        G[NGINX Reverse Proxy]
+    end
+
+    subgraph "Backend - Django REST API"
+        H[Django REST Framework]
+        I[Authentication Layer]
+        J[Business Logic]
+        K[Serializers & ViewSets]
+    end
+
+    subgraph "Caching Layer"
+        L[Redis Cache]
+    end
+
+    subgraph "Data Persistence"
+        M[(MongoDB - Course Data)]
+        N[(SQLite - Auth Data)]
+    end
+
+    A --> C
+    B --> C
+    C --> D
+    D --> E
+    E --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    K --> M
+    I --> N
+```
+
+### Technology Stack
+
+```mermaid
+graph LR
+    subgraph "Frontend Stack"
+        A[Angular 18]
+        B[TypeScript]
+        C[Bootstrap 5]
+        D[RxJS]
+    end
+
+    subgraph "Backend Stack"
+        E[Django 4.2]
+        F[Django REST Framework]
+        G[Python 3.12]
+        H[MongoEngine ODM]
+    end
+
+    subgraph "Database Stack"
+        I[(MongoDB 5.0)]
+        J[(SQLite 3)]
+        K[(Redis 6)]
+    end
+
+    subgraph "DevOps Stack"
+        L[Docker]
+        M[Kubernetes]
+        N[Jenkins]
+        O[GitHub Actions]
+    end
+
+    A --> E
+    E --> I
+    E --> J
+    E --> K
+    L --> M
+    N --> O
+
+    style A fill:#dd0031
+    style E fill:#092e20
+    style I fill:#47a248
+    style K fill:#dc382d
+    style L fill:#2496ed
+```
+
+### Database Schema
+
+The system uses MongoDB for storing course-related data with the following entity relationships:
+
+```mermaid
+erDiagram
+    USER ||--o{ COURSE : instructs
+    USER ||--o{ ENROLLMENT : enrolls
+    USER ||--o{ PROGRESS : tracks
+    USER ||--o{ NOTIFICATION : receives
+
+    CATEGORY ||--o{ COURSE : categorizes
+
+    COURSE ||--o{ LESSON : contains
+    COURSE ||--o{ ENROLLMENT : has
+
+    LESSON ||--o{ QUIZ : includes
+    LESSON ||--o{ PROGRESS : tracks
+
+    QUIZ ||--o{ QUESTION : contains
+    QUESTION ||--o{ CHOICE : has
+
+    USER {
+        ObjectId id PK
+        string username UK
+        string email UK
+        boolean is_instructor
+        boolean is_student
+        string bio
+        string profile_picture
+    }
+
+    COURSE {
+        ObjectId id PK
+        string title
+        string description
+        ObjectId instructor_id FK
+        ObjectId category_id FK
+        decimal price
+        boolean published
+        datetime created_at
+    }
+
+    LESSON {
+        ObjectId id PK
+        string title
+        ObjectId course_id FK
+        string content
+        string video_url
+        datetime created_at
+    }
+
+    ENROLLMENT {
+        ObjectId id PK
+        ObjectId student_id FK
+        ObjectId course_id FK
+        datetime enrolled_at
+    }
+
+    PROGRESS {
+        ObjectId id PK
+        ObjectId student_id FK
+        ObjectId lesson_id FK
+        boolean completed
+        datetime completed_at
+    }
+```
+
+### Authentication Flow
+
+The system uses JWT-based authentication with token storage:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Angular
+    participant Django
+    participant SQLite
+    participant Redis
+
+    User->>Angular: Enter Credentials
+    Angular->>Django: POST /api/auth/login/
+    Django->>SQLite: Verify Credentials
+
+    alt Valid Credentials
+        SQLite-->>Django: User Valid
+        Django->>Django: Generate JWT Token
+        Django->>Redis: Cache Token
+        Django-->>Angular: {token, user}
+        Angular->>Angular: Store in localStorage
+        Angular-->>User: Redirect to Dashboard
+    else Invalid Credentials
+        SQLite-->>Django: Invalid
+        Django-->>Angular: 401 Unauthorized
+        Angular-->>User: Show Error
+    end
+
+    Note over User,Redis: Subsequent Requests
+
+    User->>Angular: Access Protected Route
+    Angular->>Django: Request + Bearer Token
+    Django->>SQLite: Validate Token
+
+    alt Valid Token
+        Django->>Redis: Check Cache
+        Redis-->>Django: Data
+        Django-->>Angular: Protected Resource
+        Angular-->>User: Display Content
+    else Invalid Token
+        Django-->>Angular: 401 Unauthorized
+        Angular-->>User: Redirect to Login
+    end
+```
+
+### Component Architecture
+
+```mermaid
+graph TB
+    subgraph "Frontend Components"
+        A[Login Component]
+        B[Course List Component]
+        C[Lesson List Component]
+        D[Enrollment Component]
+        E[Progress Component]
+    end
+
+    subgraph "Angular Services"
+        F[Auth Service]
+        G[Course Service]
+        H[Lesson Service]
+        I[Enrollment Service]
+        J[Progress Service]
+    end
+
+    subgraph "Backend ViewSets"
+        K[CourseViewSet]
+        L[LessonViewSet]
+        M[EnrollmentViewSet]
+        N[ProgressViewSet]
+    end
+
+    subgraph "Data Models"
+        O[(Course Model)]
+        P[(Lesson Model)]
+        Q[(Enrollment Model)]
+        R[(Progress Model)]
+    end
+
+    A --> F
+    B --> G
+    C --> H
+    D --> I
+    E --> J
+
+    F --> K
+    G --> K
+    H --> L
+    I --> M
+    J --> N
+
+    K --> O
+    L --> P
+    M --> Q
+    N --> R
+```
+
+### Deployment Architecture
+
+```mermaid
+graph TB
+    subgraph "Cloud Infrastructure"
+        subgraph "Frontend Hosting - Vercel"
+            A[Vercel CDN]
+            B[Static Assets]
+        end
+
+        subgraph "Backend Hosting - Render"
+            C[Django Application]
+            D[Auto-scaling]
+        end
+
+        subgraph "Database Services"
+            E[(MongoDB Atlas)]
+            F[(Redis Cloud)]
+        end
+    end
+
+    subgraph "CI/CD Pipeline"
+        G[GitHub]
+        H[GitHub Actions]
+        I[Jenkins]
+    end
+
+    subgraph "Containerization"
+        J[Docker Images]
+        K[Kubernetes Cluster]
+    end
+
+    A --> B
+    C --> D
+    E --> F
+
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+
+    B --> C
+    D --> E
+    D --> F
+
+    style A fill:#000000
+    style E fill:#47a248
+    style F fill:#dc382d
+    style G fill:#181717
+```
+
+### API Request Flow with Caching
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant NGINX
+    participant Django
+    participant Redis
+    participant MongoDB
+
+    Client->>NGINX: HTTP Request
+    NGINX->>Django: Forward Request
+
+    alt Cache Hit
+        Django->>Redis: Check Cache
+        Redis-->>Django: Cached Data
+        Django-->>Client: Response (Fast)
+    else Cache Miss
+        Django->>Redis: Check Cache
+        Redis-->>Django: Cache Miss
+        Django->>MongoDB: Query Database
+        MongoDB-->>Django: Fresh Data
+        Django->>Redis: Store Cache (TTL)
+        Django-->>Client: Response
+    end
+
+    Note over Client,MongoDB: Write Operations Invalidate Cache
+
+    Client->>Django: POST/PUT/DELETE Request
+    Django->>MongoDB: Update Database
+    MongoDB-->>Django: Success
+    Django->>Redis: Invalidate Related Caches
+    Django-->>Client: Response
+```
+
+### CI/CD Pipeline
+
+```mermaid
+graph LR
+    subgraph "Source Control"
+        A[GitHub Repository]
+        B[Push/PR]
+    end
+
+    subgraph "CI Pipeline"
+        C[Run Tests]
+        D[Lint Code]
+        E[Build Docker Image]
+    end
+
+    subgraph "CD Pipeline"
+        F[Deploy to Staging]
+        G{Tests Pass?}
+        H[Deploy to Production]
+    end
+
+    subgraph "Monitoring"
+        I[Health Checks]
+        J[Performance Monitoring]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G -->|Yes| H
+    G -->|No| A
+    H --> I
+    I --> J
+```
+
 ## Features
+
+Our E-Learning Management System comes packed with a variety of features to enhance the learning experience:
 
 - **User Authentication**: Token-based authentication for secure login, built with Django Auth.
 - **Server-Side Caching**: Redis caching for improved performance and reduced server load.
@@ -79,16 +575,20 @@ The **MAD-Stack** is a powerful combination that allows developers to build scal
 - **Data Visualization**: Dynamic charts using Chart.js.
 - **Comprehensive APIs**: Powerful RESTful APIs for all operations.
 - **API Documentation**: Comprehensive REST API documentation with Swagger and Redoc.
+- **Unit & Integration Tests**: Automated tests for backend APIs and frontend components.
+- **PWA Support**: Progressive Web App features for offline access and installation.
+- **CI/CD Pipeline**: Automated deployment using Jenkins, Docker, and GitHub Actions.
+- _and many more features!_
 
 ## Live Deployment
 
-The project is currently deployed live on Vercel and Render. You can access the live deployment using the following link: **[E-Learning Management System](https://learning-manangement-system.vercel.app).**
+The project is currently deployed live! You can access the live deployment using the following link: **[E-Learning Management System](https://learning-manangement-system.vercel.app).**
 
 The backend is deployed on Render: **[Backend API](https://learning-management-system-fullstack.onrender.com/).**
 
 Feel free to explore the platform, create an account, and test out the features!
 
-> [!IMPORTANT]
+> [!IMPORTANT] 
 > **Note:** Our backend server may spin down due to inactivity, so you may experience delays in loading data initially as the backend is hosted on the free tier of Render. If you encounter any issues, please let me know.
 
 ## Detailed Project Information:
@@ -172,7 +672,7 @@ Feel free to explore the platform, create an account, and test out the features!
 ### Available API Endpoints
 
 | Endpoint                   | Method | Description                                   |
-|----------------------------|--------|-----------------------------------------------|
+| -------------------------- | ------ | --------------------------------------------- |
 | `/api/users/`              | GET    | Retrieve a list of all users.                 |
 | `/api/users/{id}/`         | GET    | Retrieve a specific user instance.            |
 | `/api/users/`              | POST   | Create a new user instance.                   |
@@ -266,7 +766,7 @@ Learning-Management-System/
 │       ├── apps.py
 │       ├── serializers.py
 │       └── urls.py
-│   
+│
 ├── LMS-Frontend
 │   ├── angular.json
 │   ├── package.json
@@ -348,7 +848,7 @@ Learning-Management-System/
 │   │   ├── .editorconfig
 │   │   ├── .gitignore
 │   │   ├── angular.json
-│   │   ├── package.json 
+│   │   ├── package.json
 │   │   ├── package-lock.json
 │   │   ├── tsconfig.json
 │   │   ├── tsconfig.app.json
@@ -430,25 +930,25 @@ Ensure the following prerequisites are installed:
    ```bash
    python manage.py createsuperuser
    ```
-   
-    Follow the prompts to create a superuser account. Remember to note down the username and password because you will need it to authenticate when using the APIs later, as well as to access the Django admin panel.
+
+   Follow the prompts to create a superuser account. Remember to note down the username and password because you will need it to authenticate when using the APIs later, as well as to access the Django admin panel.
 
 7. **Put the `SECRET_KEY` and set `Debug` to `True` in the `settings.py` file:**
 
-    ```plaintext
-    SECRET_KEY = 'your_secret_key_here'
-    DEBUG = True
-    ```
-   
-    Replace `your_secret_key_here` with a random string of characters. This key is used for cryptographic signing and should be kept secret. Or you can also contact me to get the secret key.
+   ```plaintext
+   SECRET_KEY = 'your_secret_key_here'
+   DEBUG = True
+   ```
 
-    Alternatively, create an `.env` file in the project root directory following the format in the `.env.example` file:
+   Replace `your_secret_key_here` with a random string of characters. This key is used for cryptographic signing and should be kept secret. Or you can also contact me to get the secret key.
 
-    ```plaintext
-    DJANGO_SECRET_KEY=your_secret_key_here
-    DJANGO_DEBUG=True
-    (...)
-    ```
+   Alternatively, create an `.env` file in the project root directory following the format in the `.env.example` file:
+
+   ```plaintext
+   DJANGO_SECRET_KEY=your_secret_key_here
+   DJANGO_DEBUG=True
+   (...)
+   ```
 
 8. **Seed the database with sample data:**
 
@@ -461,22 +961,22 @@ Ensure the following prerequisites are installed:
    ```bash
    python manage.py runserver
    ```
-   
-    The backend server should now be running at `http://127.0.0.1:8000/`. If the server is run successfully, you should see the Django REST Framework browsable API interface at `http://127.0.0.1:8000`, as well as the following console output:
 
-    ```plaintext
-    python manage.py runserver
-    Successfully seeded realistic sample data
-    Successfully seeded realistic sample data
-    Watching for file changes with StatReloader
-    Performing system checks...
-    
-    System check identified no issues (0 silenced).
-    September 08, 2024 - 20:35:21
-    Django version 4.2.16, using settings 'LMSBackend.settings'
-    Starting development server at http://127.0.0.1:8000/
-    Quit the server with CONTROL-C.
-    ```
+   The backend server should now be running at `http://127.0.0.1:8000/`. If the server is run successfully, you should see the Django REST Framework browsable API interface at `http://127.0.0.1:8000`, as well as the following console output:
+
+   ```plaintext
+   python manage.py runserver
+   Successfully seeded realistic sample data
+   Successfully seeded realistic sample data
+   Watching for file changes with StatReloader
+   Performing system checks...
+
+   System check identified no issues (0 silenced).
+   September 08, 2024 - 20:35:21
+   Django version 4.2.16, using settings 'LMSBackend.settings'
+   Starting development server at http://127.0.0.1:8000/
+   Quit the server with CONTROL-C.
+   ```
 
 ### Frontend Setup
 
@@ -503,7 +1003,7 @@ Ensure the following prerequisites are installed:
    ```
    http://localhost:4200
    ```
-   
+
 5. **Test out the PWA functionality:**
 
    - Open the application in your browser.
@@ -548,18 +1048,19 @@ To test the API using `curl`, use the commands below. Replace `<your_token_here>
 
   - You should get something like this:
 
-      ```json
-      [
-        {
-          "id":"66dde39af395abfee65d1f86",
-          "username":"gibsonstacey",
-          "email":"xcaldwell@example.org",
-          "is_instructor":false,"is_student":false,
-          "bio":"Consider red specific within chance fund successful out.",
-          "profile_picture":"https://placekitten.com/970/531"
-        }
-      ]
-      ```
+    ```json
+    [
+      {
+        "id": "66dde39af395abfee65d1f86",
+        "username": "gibsonstacey",
+        "email": "xcaldwell@example.org",
+        "is_instructor": false,
+        "is_student": false,
+        "bio": "Consider red specific within chance fund successful out.",
+        "profile_picture": "https://placekitten.com/970/531"
+      }
+    ]
+    ```
 
 - **Create a New Course**
 
@@ -667,27 +1168,78 @@ This project is set up to use MongoDB Atlas as the cloud database. You can creat
 
 2. **Create a free cluster:**
 
-    - Click on "Build a Cluster".
-    - Choose the free tier option.
-    - Select the cloud provider and region.
-    - Click "Create Cluster".
+   - Click on "Build a Cluster".
+   - Choose the free tier option.
+   - Select the cloud provider and region.
+   - Click "Create Cluster".
 
 3. **Connect to your cluster:**
 
-    - Click on "Connect" to connect to your cluster.
-    - Whitelist your IP address.
-    - Create a MongoDB user and password.
+   - Click on "Connect" to connect to your cluster.
+   - Whitelist your IP address.
+   - Create a MongoDB user and password.
 
 4. **Get your connection string:**
 
-    - Click on "Connect" and choose "Connect your application".
-    - Copy the connection string.
+   - Click on "Connect" and choose "Connect your application".
+   - Copy the connection string.
 
 5. **Set up the connection string in the Django settings:**
-  
-      - Replace the `.env` configuration file with the connection string from MongoDB Atlas.
+
+   - Replace the `.env` configuration file with the connection string from MongoDB Atlas.
 
 Alternatively, you can use the local MongoDB server for development and testing purposes.
+
+## Deployment
+
+The Learning Management System supports multiple deployment options, from local development to production-grade cloud infrastructure.
+
+### Deployment Options Overview
+
+| Option | Environment | Complexity | Cost | Scalability | Best For |
+|--------|-------------|------------|------|-------------|----------|
+| **Docker Compose** | Local/Dev | Low | Free | Limited | Development, Testing |
+| **Kubernetes** | Any | Medium | Variable | High | Self-hosted Production |
+| **AWS (Terraform)** | Cloud | Medium-High | ~$1400/mo | Very High | Enterprise Production |
+| **Vercel + Render** | Cloud | Low | ~$25/mo | Medium | Small-Medium Projects |
+
+### Quick Deployment Links
+
+- **Current Live Deployment**: [https://learning-manangement-system.vercel.app](https://learning-manangement-system.vercel.app)
+- **Backend API**: [https://learning-management-system-fullstack.onrender.com](https://learning-management-system-fullstack.onrender.com)
+- **Deployment Guide**: [DEPLOYMENT.md](DEPLOYMENT.md) - Comprehensive deployment documentation
+
+### Deployment Architecture
+
+```mermaid
+graph TB
+    subgraph "Development"
+        LOCAL[Local Development<br/>Docker Compose]
+    end
+
+    subgraph "Staging/Testing"
+        K8S[Kubernetes<br/>Self-Hosted]
+    end
+
+    subgraph "Production Options"
+        AWS[AWS Full Stack<br/>ECS + RDS + DocumentDB]
+        VERCEL[Vercel + Render<br/>Managed Services]
+    end
+
+    LOCAL --> K8S
+    K8S --> AWS
+    K8S --> VERCEL
+```
+
+### Infrastructure as Code
+
+The project includes production-ready Infrastructure as Code:
+
+- **`/aws`** - AWS deployment scripts and CloudFormation templates
+- **`/terraform`** - Terraform modules for complete AWS infrastructure
+- **`/kubernetes`** - Kubernetes manifests for container orchestration
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions for each option.
 
 ## Containerization
 
@@ -698,13 +1250,13 @@ The project can be containerized using Docker. The `Dockerfile` and `docker-comp
    ```bash
    cd Learning-Management-System
    ```
-   
+
 2. **Build the Docker image:**
 
    ```bash
    docker compose up --build
    ```
-   
+
 The above command will build the Docker image and start the containers for the backend, frontend, MongoDB, and Redis. You can access the application at `http://localhost:4200` and the Django REST Framework API at `http://localhost:8000`.
 
 ## Kubernetes
@@ -724,49 +1276,79 @@ To deploy the applications to a Kubernetes cluster, follow these steps:
    ```bash
    cd Kubernetes
    ```
-   
+
 2. **Create the configmap:**
 
    ```bash
     kubectl apply -f configmap.yaml
-    ```
-   
+   ```
+
 3. **Create the backend deployment:**
 
    ```bash
    kubectl apply -f backend-deployment.yaml
    ```
-   
+
 4. **Create the backend service:**
 
    ```bash
     kubectl apply -f backend-service.yaml
-    ```
-   
+   ```
+
 5. **Create the frontend deployment:**
 
    ```bash
     kubectl apply -f frontend-deployment.yaml
-    ```
-   
+   ```
+
 6. **Create the frontend service:**
 
    ```bash
     kubectl apply -f frontend-service.yaml
-    ```
-   
+   ```
+
 The above commands will create the deployments and services for the backend and frontend applications. You can access the applications using the NodePort or LoadBalancer service IP addresses.
+
+## Testing
+
+The project includes unit tests for both the backend and frontend applications. You can run the tests using the following commands:
+
+### Backend Tests
+
+To run the backend tests, navigate to the `LMS-Backend` directory and run:
+
+```bash
+cd LMS-Backend
+
+pytest -q
+```
+
+### Frontend Tests
+
+To run the frontend tests, navigate to the `LMS-Frontend/app` directory and run:
+
+```bash
+cd LMS-Frontend/app
+
+# Run tests (normal mode)
+npm run test
+
+# Run tests (code coverage mode)
+npm run coverage
+```
 
 ## OpenAPI Specification
 
 ### Using the `openapi.yaml` File
 
 1. **View the API Documentation**
+
 - Open [Swagger Editor](https://editor.swagger.io/).
 - Upload the `openapi.yaml` file or paste its content.
 - Visualize and interact with the API documentation.
 
 2. **Test the API**
+
 - Import `openapi.yaml` into [Postman](https://www.postman.com/):
   - Open Postman → Import → Select `openapi.yaml`.
   - Test the API endpoints directly from Postman.
@@ -774,6 +1356,7 @@ The above commands will create the deployments and services for the backend and 
   - Provide the file URL or upload it to view and test endpoints.
 
 3. **Generate Client Libraries**
+
 - Install OpenAPI Generator:
   ```bash
   npm install @openapitools/openapi-generator-cli -g
@@ -785,6 +1368,7 @@ The above commands will create the deployments and services for the backend and 
 - Replace `<language>` with the desired programming language.
 
 4. **Generate Server Stubs**
+
 - Generate a server stub:
   ```bash
   openapi-generator-cli generate -i openapi.yaml -g <framework> -o ./server
@@ -792,6 +1376,7 @@ The above commands will create the deployments and services for the backend and 
 - Replace `<framework>` with the desired framework.
 
 5. **Run a Mock Server**
+
 - Install Prism:
   ```bash
   npm install -g @stoplight/prism-cli
@@ -802,6 +1387,7 @@ The above commands will create the deployments and services for the backend and 
   ```
 
 6. **Validate the OpenAPI File**
+
 - Use [Swagger Validator](https://validator.swagger.io/):
   - Upload `openapi.yaml` or paste its content to check for errors.
 
@@ -828,28 +1414,35 @@ The Jenkins pipeline will automatically build the Docker images, run the unit te
 ### Common Issues
 
 1. **CORS Errors**:
-  - Ensure backend CORS settings allow requests from `http://localhost:4200`.
+
+- Ensure backend CORS settings allow requests from `http://localhost:4200`.
 
 2. **Unauthorized Access**:
-  - Confirm that tokens are stored correctly in `localStorage`.
+
+- Confirm that tokens are stored correctly in `localStorage`.
 
 3. **API Connection**:
-  - Verify the backend server is running at `http://127.0.0.1:8000`.
+
+- Verify the backend server is running at `http://127.0.0.1:8000`.
 
 4. **Database Connection**:
-  - Check MongoDB and Redis are running and accessible.
+
+- Check MongoDB and Redis are running and accessible.
 
 5. **Dependencies**:
-  - Ensure all required dependencies are installed, using `pip install -r requirements.txt` and `npm install`.
+
+- Ensure all required dependencies are installed, using `pip install -r requirements.txt` and `npm install`.
 
 6. **UI Issues**:
-  - Check the Angular console for errors and warnings. Alternatively, you can try clearing the cache using `npm cache clean --force` and `npm install`.
+
+- Check the Angular console for errors and warnings. Alternatively, you can try clearing the cache using `npm cache clean --force` and `npm install`.
 
 7. **Unable to Log In**:
-  - Because we are using default Django Auth and SQLite to optimize infrastructure costs, perhaps the user you are trying to log in with does not exist. Sometimes SQLite does not save the data after the server is restarted. 
-  - Therefore, please try registering a new user and logging in with that user to bypass this issue.
-  - You can also try to create a new user using the Django admin panel or the `createsuperuser` command.
-  - Sorry for any inconvenience this may cause! I am planning to switch to Firebase Auth in the future to avoid this issue, but I will need to get some funding first since I have run out of free tier resources...
+
+- Because we are using default Django Auth and SQLite to optimize infrastructure costs, perhaps the user you are trying to log in with does not exist. Sometimes SQLite does not save the data after the server is restarted.
+- Therefore, please try registering a new user and logging in with that user to bypass this issue.
+- You can also try to create a new user using the Django admin panel or the `createsuperuser` command.
+- Sorry for any inconvenience this may cause! I am planning to switch to Firebase Auth in the future to avoid this issue, but I will need to get some funding first since I have run out of free tier resources...
 
 ### Debugging Tips
 
