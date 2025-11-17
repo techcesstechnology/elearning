@@ -9,11 +9,14 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
+import os
 from datetime import timedelta
 from pathlib import Path
 from decouple import config
 from mongoengine import connect
 
+import mimetypes
+mimetypes.add_type("text/css", ".css", True)
 
 # Connect to MongoDB
 connect(
@@ -30,7 +33,7 @@ connect(
 SECRET_KEY = config('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DJANGO_DEBUG', default=False, cast=bool)
+DEBUG = False
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -85,6 +88,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'LMSBackend.urls'
@@ -156,6 +160,7 @@ SWAGGER_SETTINGS = {
     'APIS_SORTER': 'alpha',
     'OPERATIONS_SORTER': 'alpha',
     'SHOW_REQUEST_HEADERS': True,
+    'DEFAULT_API_URL': 'https://learning-management-system-fullstack.onrender.com',
 }
 
 SIMPLE_JWT = {
@@ -202,7 +207,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 # Default primary key field type
